@@ -1,14 +1,14 @@
 {
-  "name": "css-grid-layout-react",
+  "name": "glare",
   "version": "0.1.0",
   "description": "CSS Grid Layout for React",
   "main": "./lib/index.js",
   "scripts": {
     "build": "npm run build:lib && npm run build:umd && npm run build:umd:min && node ./prepublish",
     "build:lib": "babel src --out-dir lib",
-    "build:umd": "cross-env NODE_ENV=development webpack src/index.js dist/css-grid-layout-react.js",
-    "build:umd:min": "cross-env NODE_ENV=production webpack src/index.js dist/css-grid-layout-react.min.js",
-    "test": "mocha --compilers js:babel-register",
+    "build:umd": "cross-env NODE_ENV=development webpack src/index.js dist/glare.js",
+    "build:umd:min": "cross-env NODE_ENV=production webpack src/index.js dist/glare.min.js",
+    "test": "mocha --compilersg js:babel-register",
     "test:cov": "babel-node ./node_modules/isparta/bin/isparta cover _mocha"
   },
   "author": "Chris Wheatley <chriswheatley87@gmail.com>",
@@ -34,6 +34,8 @@
   "keywords": [
     "css grid",
     "css grid layout",
+    "glare",
+    "glare react",
     "grid layout",
     "react",
     "react grid",

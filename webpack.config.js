@@ -22,7 +22,7 @@ var config = {
     }]
   },
   output: {
-    library: 'CSSGridLayoutReact',
+    library: 'glare',
     libraryTarget: 'umd'
   },
   plugins: [
