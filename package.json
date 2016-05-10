@@ -8,7 +8,8 @@
     "build:lib": "babel src --out-dir lib",
     "build:umd": "cross-env NODE_ENV=development webpack src/index.js dist/css-grid-layout-react.js",
     "build:umd:min": "cross-env NODE_ENV=production webpack src/index.js dist/css-grid-layout-react.min.js",
-    "test": "mocha test/.setup.js test/**/*.test.js"
+    "test": "mocha --compilers js:babel-register",
+    "test:cov": "babel-node ./node_modules/isparta/bin/isparta cover _mocha"
   },
   "author": "Chris Wheatley <chriswheatley87@gmail.com>",
   "license": "MIT",

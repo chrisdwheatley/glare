@@ -8,7 +8,7 @@ chai.use(chaiEnzyme())
 
 describe('<Grid />', () => {
 
-  describe('with neither columns or layout passed through as props', () => {
+  describe('when neither columns or layout passed through as props', () => {
 
     it('should render a grid component with only display:style set', () => {
       const grid = shallow(<Grid />)
