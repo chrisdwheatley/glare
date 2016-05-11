@@ -1,6 +1,6 @@
 {
   "name": "glare",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "CSS Grid Layout for React",
   "main": "./lib/index.js",
   "scripts": {
