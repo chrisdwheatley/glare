@@ -20,7 +20,7 @@ npm install --save glare
 
 ## Example
 
-```
+```js
 import {Grid, Cell} from 'glare'
 import React, {Component} from 'react'
 import {render} from 'react-dom'
@@ -60,7 +60,7 @@ render(
 
 Grid
 
-```
+```js
 <Grid
   columns={ number }  // the number of columns desired for the grid
   layout={ array }    // an array of cell names to use for layout
@@ -69,7 +69,7 @@ Grid
 
 Cell
 
-```
+```js
 <Cell
   name={ string }   // the name to reference in the <Grid /> layout prop
   column={ array }  // the column start and end values, e.g. [1, 2]
