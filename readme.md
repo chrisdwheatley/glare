@@ -1,6 +1,6 @@
 # glare
 
-[![build status](https://img.shields.io/travis/swirlycheetah/glare/master.svg?style=flat-square)](https://travis-ci.org/swirlycheetah/glare) [![Coveralls](https://img.shields.io/coveralls/swirlycheetah/glare.svg?maxAge=2592000?style=flat-square)](https://coveralls.io/github/swirlycheetah/glare)
+[![build status](https://img.shields.io/travis/swirlycheetah/glare/master.svg?style=flat-square)](https://travis-ci.org/swirlycheetah/glare) [![Coveralls](https://img.shields.io/coveralls/swirlycheetah/glare.svg?style=flat-square)](https://coveralls.io/github/swirlycheetah/glare)
 
 [CSS Grid Layout](http://gridbyexample.com/examples/) for React
 
