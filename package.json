@@ -38,6 +38,11 @@
     "type": "git",
     "url": "git://github.com/swirlycheetah/glare.git"
   },
+  "files": [
+    "dist",
+    "lib",
+    "src"
+  ],
   "keywords": [
     "css grid",
     "css grid layout",
