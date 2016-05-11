@@ -6,7 +6,9 @@
 
 ## Browser Support
 
-CSS Grid Layout is under development in most browsers. [Can I use...](http://caniuse.com/#search=grid) lists support. Support can be enabled in Chrome by toggling chrome://flags/#enable-experimental-web-platform-features on.
+CSS Grid Layout is under development in most browsers. [Can I use...](http://caniuse.com/#search=grid) lists support.
+
+Support can be enabled in Chrome by toggling _chrome://flags/#enable-experimental-web-platform-features_ on.
 
 ## Install
 
