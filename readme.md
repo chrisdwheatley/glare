@@ -1,5 +1,7 @@
 # glare
 
+[![Build Status](https://secure.travis-ci.org/swirlycheetah/glare.png?branch=master)](https://travis-ci.org/swirlycheetah/glare)
+
 [CSS Grid Layout](http://gridbyexample.com/examples/) for React
 
 ## Browser Support
