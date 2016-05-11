@@ -8,8 +8,7 @@
     "build:lib": "babel src --out-dir lib",
     "build:umd": "cross-env NODE_ENV=development webpack src/index.js dist/glare.js",
     "build:umd:min": "cross-env NODE_ENV=production webpack src/index.js dist/glare.min.js",
-    "test": "mocha --compilersg js:babel-register",
-    "test:cov": "babel-node ./node_modules/isparta/bin/isparta cover _mocha"
+    "test": "babel-node ./node_modules/isparta/bin/isparta cover _mocha"
   },
   "author": "Chris Wheatley <chriswheatley87@gmail.com>",
   "license": "MIT",
@@ -24,6 +23,7 @@
     "babel-preset-react": "^6.5.0",
     "chai": "^3.5.0",
     "chai-enzyme": "^0.4.2",
+    "coveralls": "^2.11.9",
     "cross-env": "^1.0.7",
     "es3ify": "^0.2.2",
     "mocha": "^2.4.5",
