@@ -18,6 +18,13 @@ Using [npm](http://npmjs.com):
 npm install --save glare
 ```
 
+The UMD build is also available on [npmcdn.com](http://npmcdn.com):
+
+```
+<script src="https://npmcdn.com/glare/dist/glare.js"></script>
+<script src="https://npmcdn.com/glare/dist/glare.min.js"></script>
+```
+
 ## Example
 
 ```js
