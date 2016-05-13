@@ -1,6 +1,6 @@
 # glare
 
-[![build status](https://img.shields.io/travis/swirlycheetah/glare/master.svg?style=flat-square)](https://travis-ci.org/swirlycheetah/glare) [![Coveralls](https://img.shields.io/coveralls/swirlycheetah/glare.svg?style=flat-square)](https://coveralls.io/github/swirlycheetah/glare)
+[![Travis][travis-badge]][travis] [![Coveralls][coveralls-badge]][coveralls]
 
 [CSS Grid Layout](http://gridbyexample.com/examples/) for React
 
@@ -80,3 +80,9 @@ Cell
 ## License
 
 Released under the MIT license: [opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
+
+[travis]: https://travis-ci.org/swirlycheetah/glare
+[travis-badge]: https://img.shields.io/travis/swirlycheetah/glare/master.svg?style=flat-square
+
+[coveralls]: https://coveralls.io/github/swirlycheetah/glare
+[coveralls-badge]: https://img.shields.io/coveralls/swirlycheetah/glare.svg?style=flat-square
