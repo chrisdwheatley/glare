@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 
 export class Grid extends Component {
-  componentWillMount() {
-    const {columns, layout} = this.props
+  render () {
+    const {children, columns, layout, style} = this.props
 
     const colsFromLayout = layout ? layout[0].split(' ').length : null
 
@@ -24,20 +24,14 @@ export class Grid extends Component {
       })
     }
 
-    this.setState({
-      wrapper: {
-        display: 'grid',
-        gridTemplateColumns: `${columnsSize}% `.repeat(cols),
-        gridTemplateAreas: gridLayout
-      }
-    })
-  }
-
-  render () {
-    const {children, style} = this.props
+    this.wrapper = {
+      display: 'grid',
+      gridTemplateColumns: `${columnsSize}% `.repeat(cols),
+      gridTemplateAreas: gridLayout
+    }
 
     return (
-      <div style={Object.assign(style || {}, this.state.wrapper)}>
+      <div style={Object.assign(style || {}, this.wrapper)}>
         {children}
       </div>
     )

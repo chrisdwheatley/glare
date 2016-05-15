@@ -1,35 +1,25 @@
 import React, {Component} from 'react'
 
 export class Cell extends Component {
-  componentWillMount() {
-    const {column, name, row} = this.props
+  render () {
+    const {children, column, name, row, style} = this.props
 
-    this.setState({
-      cell: {}
-    })
+    this.cell = {}
 
     if (name) {
-      this.setState({
-        cell: {
-          gridArea: name
-        }
-      })
+      this.cell = {
+        gridArea: name
+      }
     }
 
     if (column && row) {
-      this.setState({
-        cell: {
-          gridArea: `${row[0]} / ${column[0]} / ${row[1]} / ${column[1]}`
-        }
-      })
+      this.cell = {
+        gridArea: `${row[0]} / ${column[0]} / ${row[1]} / ${column[1]}`
+      }
     }
-  }
-
-  render () {
-    const {children, style} = this.props
 
     return (
-      <div style={Object.assign(style || {}, this.state.cell)}>
+      <div style={Object.assign(style || {}, this.cell)}>
         {children}
       </div>
     )
